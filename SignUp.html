@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="loginIn">
+        <div class="welcome">Register now</div>
+        <span class="detail">Let's get connected</span>
+
+        <form action="">
+          <div class="flex">
+            <span class="email">Email</span>
+            <input type="email" placeholder="Enter your email" required />
+            <!-- <span class="input-group_error">Not a valid email</span> -->
+          </div>
+          <div class="flex">
+            <span class="email">Password</span>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              pattern="[a-z0-9]{8,}"
+              required
+            />
+            <!-- <span class="input-group_error">Digits or letter, min 8 chars</span> -->
+          </div>
+          <div class="flex">
+            <span class="email">Confirm Password</span>
+            <input
+              type="password"
+              placeholder="Re-enter password"
+              pattern="[a-z0-9]{8,}"
+              required
+            />
+            <!-- <span class="input-group_error">Digits or letter, min 8 chars</span> -->
+          </div>
+          <div class="flex">
+            <span class="email">Phone NO</span>
+            <input
+              type="tel"
+              placeholder="Enter your Phone-no"
+              pattern="[0-9]{8,}"
+              required
+            />
+            <!-- <span class="input-group_error">Digits or letter, min 8 chars</span> -->
+          </div>
+
+          <button type="submit" class="submit">Sign in</button>
+
+          <div class="signUp">
+            Already have an account!! <a href="Login.html">Sign in</a>
+          </div>
+        </form>
+      </div>
+      <div class="image">
+        <img src="image/Signup.jpeg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
