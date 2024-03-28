@@ -183,6 +183,7 @@ html {
         letter-spacing: 0.03em;
         text-align: center;
         z-index: 2;
+        overflow: hidden;
         cursor: pointer;
 
         &::before {
@@ -271,10 +272,10 @@ html {
 }
 @keyframes slide-glow {
   0% {
-    transform: skew(-20deg) translateX(0);
+    transform: skew(-20deg) translateX(-120px);
   }
   100% {
-    transform: skew(-20deg) translateX(180px);
+    transform: skew(-20deg) translateX(380px);
   }
 }
 .reset {
