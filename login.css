@@ -363,3 +363,6 @@ html {
     display: none;
   }
 }
+.remove {
+  display: none;
+}
